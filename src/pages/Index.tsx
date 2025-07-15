@@ -8,16 +8,16 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white border-b border-gray-100 px-4 py-4">
+      <header className="bg-[#151515] border-b border-gray-800 px-4 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-[#151515] font-montserrat">Xenus Development</span>
+            <span className="text-xl font-bold text-white font-montserrat">Xenus Development</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-600 hover:text-[#4dfbde] transition-colors">Модули</a>
-            <a href="#advantages" className="text-gray-600 hover:text-[#4dfbde] transition-colors">Преимущества</a>
-            <a href="#industries" className="text-gray-600 hover:text-[#4dfbde] transition-colors">Применение</a>
-            <a href="#contact" className="text-gray-600 hover:text-[#4dfbde] transition-colors">Контакты</a>
+            <a href="#features" className="text-gray-300 hover:text-[#4dfbde] transition-colors">Модули</a>
+            <a href="#advantages" className="text-gray-300 hover:text-[#4dfbde] transition-colors">Преимущества</a>
+            <a href="#industries" className="text-gray-300 hover:text-[#4dfbde] transition-colors">Применение</a>
+            <a href="#contact" className="text-gray-300 hover:text-[#4dfbde] transition-colors">Контакты</a>
           </nav>
           <Button className="bg-[#4dfbde] hover:bg-[#3de6ca] text-[#151515] font-semibold">Демо</Button>
         </div>
@@ -57,7 +57,7 @@ const Index = () => {
             </div>
             <div className="relative animate-scale-in">
               <img 
-                src="/img/6ff70c80-08de-4511-b6a8-15c8b67f71ea.jpg" 
+                src="/img/f5f532bd-7ae8-4908-892d-be8f60f15832.jpg" 
                 alt="XENUS Platform Interface" 
                 className="rounded-2xl shadow-2xl border border-gray-200"
               />
