@@ -73,82 +73,82 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 px-4 bg-white">
+      <section id="features" className="py-20 px-4 bg-[#1e1e1e]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#151515] mb-4 font-montserrat">Ключевые модули XenusGIS</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-white mb-4 font-montserrat">Ключевые модули XenusGIS</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Полный набор инструментов для геоинформационного анализа и управления инфраструктурой
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
+            <Card className="border-gray-700 bg-[#151515] hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
                 <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center my-[3px] mx-[148px]">
                   <Icon name="Map" size={24} className="text-[#4dfbde]" />
                 </div>
-                <CardTitle className="text-[#151515] font-montserrat">Картографическое ядро</CardTitle>
+                <CardTitle className="text-white font-montserrat">Картографическое ядро</CardTitle>
                 <CardDescription>
                   2D/3D визуализация на базе GeoServer и PostGIS. Многослойные карты с поддержкой векторных и растровых данных
                 </CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
+            <Card className="border-gray-700 bg-[#151515] hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
                 <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4 mx-[148px]">
                   <Icon name="Box" size={24} className="text-[#4dfbde]" />
                 </div>
-                <CardTitle className="text-[#151515] font-montserrat">Цифровые двойники</CardTitle>
+                <CardTitle className="text-white font-montserrat">Цифровые двойники</CardTitle>
                 <CardDescription>
                   Создание виртуальных копий реальных объектов инфраструктуры для мониторинга и симуляции
                 </CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
+            <Card className="border-gray-700 bg-[#151515] hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
                 <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4 mx-[148px]">
                   <Icon name="BarChart3" size={24} className="text-[#4dfbde]" />
                 </div>
-                <CardTitle className="text-[#151515] font-montserrat">BI-аналитика и отчётность</CardTitle>
+                <CardTitle className="text-white font-montserrat">BI-аналитика и отчётность</CardTitle>
                 <CardDescription>
                   Комплексная бизнес-аналитика с интерактивными дашбордами и автоматизированной отчётностью
                 </CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
+            <Card className="border-gray-700 bg-[#151515] hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
                 <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4 mx-[148px]">
                   <Icon name="Brain" size={24} className="text-[#4dfbde]" />
                 </div>
-                <CardTitle className="text-[#151515] font-montserrat">ИИ-аналитика</CardTitle>
+                <CardTitle className="text-white font-montserrat">ИИ-аналитика</CardTitle>
                 <CardDescription>
                   Предиктивный анализ и машинное обучение для прогнозирования состояния инфраструктуры
                 </CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
+            <Card className="border-gray-700 bg-[#151515] hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
                 <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4 mx-[148px]">
                   <Icon name="Wifi" size={24} className="text-[#4dfbde]" />
                 </div>
-                <CardTitle className="text-[#151515] font-montserrat">IoT-интеграция</CardTitle>
+                <CardTitle className="text-white font-montserrat">IoT-интеграция</CardTitle>
                 <CardDescription>
                   Подключение датчиков и телеметрия в реальном времени для мониторинга объектов
                 </CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
+            <Card className="border-gray-700 bg-[#151515] hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
                 <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4 mx-[148px]">
                   <Icon name="FileText" size={24} className="text-[#4dfbde]" />
                 </div>
-                <CardTitle className="text-[#151515] font-montserrat">Генерация отчётов с LLM</CardTitle>
+                <CardTitle className="text-white font-montserrat">Генерация отчётов с LLM</CardTitle>
                 <CardDescription>
                   Автоматическое создание аналитических отчётов с использованием языковых моделей
                 </CardDescription>
@@ -217,6 +217,57 @@ const Index = () => {
               <div className="absolute top-4 left-4 bg-[#4dfbde] text-[#151515] px-3 py-1 rounded-full text-sm font-semibold">
                 Сценарное моделирование
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Clients Section */}
+      <section className="py-20 px-4 bg-[#1a1a1a]">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-white mb-4 font-montserrat">Наши заказчики</h2>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">Ведущие организации и предприятия доверяют XenusGIS для решения задач пространственной аналитики</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center p-6 bg-[#151515] rounded-xl border border-gray-700 hover:border-[#4dfbde]/30 transition-all duration-300">
+              <div className="w-16 h-16 bg-[#4dfbde]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="Building2" size={32} className="text-[#4dfbde]" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Госкорпорации</h3>
+              <p className="text-gray-400 text-sm">Крупные государственные корпорации и холдинги</p>
+            </div>
+
+            <div className="text-center p-6 bg-[#151515] rounded-xl border border-gray-700 hover:border-[#4dfbde]/30 transition-all duration-300">
+              <div className="w-16 h-16 bg-[#4dfbde]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="MapPin" size={32} className="text-[#4dfbde]" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Муниципалитеты</h3>
+              <p className="text-gray-400 text-sm">Городские и региональные администрации</p>
+            </div>
+
+            <div className="text-center p-6 bg-[#151515] rounded-xl border border-gray-700 hover:border-[#4dfbde]/30 transition-all duration-300">
+              <div className="w-16 h-16 bg-[#4dfbde]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="Zap" size={32} className="text-[#4dfbde]" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Энергетика</h3>
+              <p className="text-gray-400 text-sm">Энергетические компании и сетевые организации</p>
+            </div>
+
+            <div className="text-center p-6 bg-[#151515] rounded-xl border border-gray-700 hover:border-[#4dfbde]/30 transition-all duration-300">
+              <div className="w-16 h-16 bg-[#4dfbde]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="Truck" size={32} className="text-[#4dfbde]" />
+              </div>
+              <h3 className="text-lg font-semibold text-white mb-2">Транспорт</h3>
+              <p className="text-gray-400 text-sm">Транспортные и логистические компании</p>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <div className="bg-[#4dfbde]/10 border border-[#4dfbde]/30 rounded-lg p-6 max-w-2xl mx-auto">
+              <p className="text-[#4dfbde] font-semibold text-lg mb-2">Более 50 успешных проектов</p>
+              <p className="text-gray-300">Доверие крупнейших российских организаций подтверждает качество и надежность XenusGIS</p>
             </div>
           </div>
         </div>
@@ -382,11 +433,11 @@ const Index = () => {
               <div className="space-y-2 text-gray-400">
                 <div className="flex items-center space-x-2">
                   <Icon name="Mail" size={16} />
-                  <span>info@xenus.ru</span>
+                  <a href="mailto:info@xenus.ru" className="text-gray-300 hover:text-[#4dfbde] transition-colors">info@xenus.ru</a>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Icon name="Phone" size={16} />
-                  <span>+7 (8412) 46-48-58</span>
+                  <a href="tel:+78412464858" className="text-gray-300 hover:text-[#4dfbde] transition-colors">+7 (8412) 46-48-58</a>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Icon name="MapPin" size={16} />
@@ -398,9 +449,21 @@ const Index = () => {
             <div>
               <h3 className="text-lg font-semibold mb-4">Связь с нами</h3>
               <div className="flex space-x-4">
-                <Button variant="ghost" size="icon" className="text-gray-400 hover:text-[#4dfbde]">
-                  <Icon name="Send" size={20} />
-                </Button>
+                <a href="https://t.me/xenusGIS" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" className="text-gray-400 hover:text-[#4dfbde]">
+                    <Icon name="Send" size={20} />
+                  </Button>
+                </a>
+                <a href="https://gitlab.com/xenusGIS" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" className="text-gray-400 hover:text-[#4dfbde]">
+                    <Icon name="GitBranch" size={20} />
+                  </Button>
+                </a>
+                <a href="https://habr.com/xenusGIS" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" className="text-gray-400 hover:text-[#4dfbde]">
+                    <Icon name="BookOpen" size={20} />
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
