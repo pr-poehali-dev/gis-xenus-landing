@@ -163,7 +163,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-white mb-8 font-montserrat">Преимущества XENUS</h2>
+              <h2 className="text-4xl font-bold text-white mb-8 font-montserrat">Преимущества XenusGIS</h2>
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
@@ -370,7 +370,7 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Icon name="Globe" size={28} className="text-[#4dfbde]" />
-                <span className="text-xl font-bold font-montserrat">XENUS</span>
+                <span className="text-xl font-bold font-montserrat">XenusGIS</span>
               </div>
               <p className="text-gray-400">
                 Отечественная геоинформационная платформа нового поколения для цифровой трансформации
