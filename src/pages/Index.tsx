@@ -324,36 +324,36 @@ const Index = () => {
           </div>
 
           {/* Development roadmap */}
-          <div className="mt-16 bg-[#151515] border border-gray-700 rounded-2xl p-8">
+          <div className="mt-16">
             <h3 className="text-2xl font-bold text-white mb-6 text-center font-montserrat">Направления развития</h3>
-            <div className="grid md:grid-cols-4 gap-6">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-[#4dfbde] rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <Icon name="Building2" size={24} className="text-[#151515]" />
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="text-center p-6 bg-[#151515] rounded-xl hover:bg-[#4dfbde]/10 transition-all duration-300 hover-scale border border-gray-700">
+                <div className="w-16 h-16 bg-[#4dfbde]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Building2" size={32} className="text-[#4dfbde]" />
                 </div>
-                <h4 className="font-semibold text-white mb-2">BIM-интеграция</h4>
-                <p className="text-sm text-gray-400">Работа с моделями зданий и сооружений</p>
+                <h4 className="text-lg font-semibold text-white mb-2">BIM-интеграция</h4>
+                <p className="text-gray-400 text-sm">Работа с моделями зданий и сооружений</p>
               </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-[#4dfbde] rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <Icon name="Globe" size={24} className="text-[#151515]" />
+              <div className="text-center p-6 bg-[#151515] rounded-xl hover:bg-[#4dfbde]/10 transition-all duration-300 hover-scale border border-gray-700">
+                <div className="w-16 h-16 bg-[#4dfbde]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Globe" size={32} className="text-[#4dfbde]" />
                 </div>
-                <h4 className="font-semibold text-white mb-2">Умный город</h4>
-                <p className="text-sm text-gray-400">Комплексные решения для городской среды</p>
+                <h4 className="text-lg font-semibold text-white mb-2">Умный город</h4>
+                <p className="text-gray-400 text-sm">Комплексные решения для городской среды</p>
               </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-[#4dfbde] rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <Icon name="Target" size={24} className="text-[#151515]" />
+              <div className="text-center p-6 bg-[#151515] rounded-xl hover:bg-[#4dfbde]/10 transition-all duration-300 hover-scale border border-gray-700">
+                <div className="w-16 h-16 bg-[#4dfbde]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Target" size={32} className="text-[#4dfbde]" />
                 </div>
-                <h4 className="font-semibold text-white mb-2">ЦУР</h4>
-                <p className="text-sm text-gray-400">Центры управления регионами</p>
+                <h4 className="text-lg font-semibold text-white mb-2">ЦУР</h4>
+                <p className="text-gray-400 text-sm">Центры управления регионами</p>
               </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-[#4dfbde] rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <Icon name="Cpu" size={24} className="text-[#151515]" />
+              <div className="text-center p-6 bg-[#151515] rounded-xl hover:bg-[#4dfbde]/10 transition-all duration-300 hover-scale border border-gray-700">
+                <div className="w-16 h-16 bg-[#4dfbde]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Cpu" size={32} className="text-[#4dfbde]" />
                 </div>
-                <h4 className="font-semibold text-white mb-2">Автонастройка</h4>
-                <p className="text-sm text-gray-400">ИИ для автоматической настройки аналитики</p>
+                <h4 className="text-lg font-semibold text-white mb-2">Автонастройка</h4>
+                <p className="text-gray-400 text-sm">ИИ для автоматической настройки аналитики</p>
               </div>
             </div>
           </div>
