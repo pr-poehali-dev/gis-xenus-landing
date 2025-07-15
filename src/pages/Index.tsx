@@ -291,7 +291,7 @@ const Index = () => {
             
             <div className="relative">
               <img 
-                src="/img/96540ea1-3583-4c05-a861-fc9e0b16ea9b.jpg" 
+                src="/img/6ff70c80-08de-4511-b6a8-15c8b67f71ea.jpg" 
                 alt="XENUS Analytics Dashboard" 
                 className="rounded-2xl shadow-2xl border border-gray-200"
               />
