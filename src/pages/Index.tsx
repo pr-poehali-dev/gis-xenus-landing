@@ -471,11 +471,11 @@ const Index = () => {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Icon name="Phone" size={16} />
-                  <span>+7 (495) 123-45-67</span>
+                  <span>+7 (8412) 46-48-58</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Icon name="MapPin" size={16} />
-                  <span>Москва, Россия</span>
+                  <span>Пенза, Россия</span>
                 </div>
               </div>
             </div>
