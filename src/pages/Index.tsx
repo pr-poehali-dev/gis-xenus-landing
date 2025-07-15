@@ -97,7 +97,7 @@ const Index = () => {
 
             <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4 mx-[148px]">
                   <Icon name="Box" size={24} className="text-[#4dfbde]" />
                 </div>
                 <CardTitle className="text-[#151515] font-montserrat">Цифровые двойники</CardTitle>
@@ -109,7 +109,7 @@ const Index = () => {
 
             <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4 mx-[148px]">
                   <Icon name="BarChart3" size={24} className="text-[#4dfbde]" />
                 </div>
                 <CardTitle className="text-[#151515] font-montserrat">BI-аналитика и отчётность</CardTitle>
@@ -121,7 +121,7 @@ const Index = () => {
 
             <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4 mx-[148px]">
                   <Icon name="Brain" size={24} className="text-[#4dfbde]" />
                 </div>
                 <CardTitle className="text-[#151515] font-montserrat">ИИ-аналитика</CardTitle>
@@ -133,7 +133,7 @@ const Index = () => {
 
             <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4 mx-[148px]">
                   <Icon name="Wifi" size={24} className="text-[#4dfbde]" />
                 </div>
                 <CardTitle className="text-[#151515] font-montserrat">IoT-интеграция</CardTitle>
@@ -145,7 +145,7 @@ const Index = () => {
 
             <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4 mx-[148px]">
                   <Icon name="FileText" size={24} className="text-[#4dfbde]" />
                 </div>
                 <CardTitle className="text-[#151515] font-montserrat">Генерация отчётов с LLM</CardTitle>
@@ -314,9 +314,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-white mb-4 font-montserrat">Свяжитесь с нами</h2>
-            <p className="text-xl text-gray-300">
-              Готовы внедрить XENUS в вашей организации? Получите персональную консультацию и демонстрацию возможностей
-            </p>
+            <p className="text-xl text-gray-300">Готовы внедрить XenusGIS в вашей организации? Получите персональную консультацию и демонстрацию возможностей</p>
           </div>
 
           <Card className="bg-[#1e1e1e] border-gray-700 shadow-2xl">
