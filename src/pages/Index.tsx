@@ -11,7 +11,7 @@ const Index = () => {
       <header className="bg-[#151515] border-b border-gray-800 px-4 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-white font-montserrat">Xenus Development</span>
+            <span className="text-xl font-bold text-white font-montserrat">XenusGIS</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-gray-300 hover:text-[#4dfbde] transition-colors">Модули</a>
@@ -29,7 +29,7 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="animate-fade-in">
               <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6 font-montserrat leading-tight">
-                XENUS — Геоинформационная платформа нового поколения
+                XenusGIS — Геоинформационная платформа нового поколения
               </h1>
               <p className="text-xl text-gray-300 mb-6 leading-relaxed">
                 Отечественная модульная геоинформационная система для пространственной аналитики и управления инфраструктурой. 
@@ -58,7 +58,7 @@ const Index = () => {
             <div className="relative animate-scale-in lg:ml-8">
               <img 
                 src="/img/f5f532bd-7ae8-4908-892d-be8f60f15832.jpg" 
-                alt="XENUS Platform Interface" 
+                alt="XenusGIS Platform Interface" 
                 className="rounded-2xl shadow-2xl border border-gray-700 w-full max-w-lg"
               />
               <div className="absolute -bottom-4 -right-4 bg-[#151515] border border-gray-700 p-4 rounded-xl shadow-lg">
@@ -410,7 +410,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>© XENUS. Все права защищены. Отечественная разработка.</p>
+            <p>© XenusGIS. Все права защищены. Отечественная разработка.</p>
           </div>
         </div>
       </footer>
