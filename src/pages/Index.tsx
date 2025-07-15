@@ -85,7 +85,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-gray-200 hover:shadow-lg transition-all duration-300 hover-scale hover:border-[#4dfbde]/30">
               <CardHeader>
-                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-[#4dfbde]/10 rounded-lg flex items-center justify-center my-[3px] mx-[148px]">
                   <Icon name="Map" size={24} className="text-[#4dfbde]" />
                 </div>
                 <CardTitle className="text-[#151515] font-montserrat">Картографическое ядро</CardTitle>
@@ -227,9 +227,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4 font-montserrat">Области применения</h2>
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              XENUS успешно применяется в различных отраслях для поддержки управленческих решений и цифровой трансформации
-            </p>
+            <p className="text-xl text-gray-400 max-w-3xl mx-auto">XenusGIS успешно применяется в различных отраслях для поддержки управленческих решений и цифровой трансформации</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
