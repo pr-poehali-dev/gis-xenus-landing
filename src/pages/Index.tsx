@@ -433,7 +433,7 @@ const Index = () => {
               <div className="space-y-2 text-gray-400">
                 <div className="flex items-center space-x-2">
                   <Icon name="Mail" size={16} />
-                  <a href="mailto:info@xenus.ru" className="text-gray-300 hover:text-[#4dfbde] transition-colors">info@xenus.ru</a>
+                  <a href="mailto:info@xenus.ru" className="text-gray-300 hover:text-[#4dfbde] transition-colors">office@xenus.dev</a>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Icon name="Phone" size={16} />
