@@ -6,7 +6,7 @@ import Icon from "@/components/ui/icon";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#151515]">
       {/* Header */}
       <header className="bg-[#151515] border-b border-gray-800 px-4 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -24,19 +24,19 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-20 px-4 bg-gradient-to-br from-white to-[#f0fffd]">
+      <section className="relative py-20 px-4 bg-[#151515]">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="animate-fade-in">
-              <h1 className="text-5xl lg:text-6xl font-bold text-[#151515] mb-6 font-montserrat leading-tight">
+              <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6 font-montserrat leading-tight">
                 XENUS — Геоинформационная платформа нового поколения
               </h1>
-              <p className="text-xl text-gray-600 mb-6 leading-relaxed">
+              <p className="text-xl text-gray-300 mb-6 leading-relaxed">
                 Отечественная модульная геоинформационная система для пространственной аналитики и управления инфраструктурой. 
                 Объединяет инструменты пространственного анализа, элементы ИИ, цифровые двойники и средства управления инфраструктурой.
               </p>
               <div className="bg-[#4dfbde]/10 border border-[#4dfbde]/30 rounded-lg p-4 mb-8">
-                <p className="text-[#151515] font-semibold">
+                <p className="text-[#4dfbde] font-semibold">
                   ✓ Полная импортонезависимость
                   <br />
                   ✓ Модульная архитектура 
@@ -55,16 +55,16 @@ const Index = () => {
                 </Button>
               </div>
             </div>
-            <div className="relative animate-scale-in">
+            <div className="relative animate-scale-in lg:ml-8">
               <img 
                 src="/img/f5f532bd-7ae8-4908-892d-be8f60f15832.jpg" 
                 alt="XENUS Platform Interface" 
-                className="rounded-2xl shadow-2xl border border-gray-200"
+                className="rounded-2xl shadow-2xl border border-gray-700 w-full max-w-lg"
               />
-              <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-xl shadow-lg border">
+              <div className="absolute -bottom-4 -right-4 bg-[#151515] border border-gray-700 p-4 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-[#4dfbde] rounded-full animate-pulse"></div>
-                  <span className="text-sm font-medium text-gray-600">Пространственная аналитика в реальном времени</span>
+                  <span className="text-sm font-medium text-gray-300">Пространственная аналитика в реальном времени</span>
                 </div>
               </div>
             </div>
