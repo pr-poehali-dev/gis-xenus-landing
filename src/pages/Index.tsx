@@ -400,16 +400,10 @@ const Index = () => {
             </div>
             
             <div>
-              <h3 className="text-lg font-semibold mb-4">Социальные сети</h3>
+              <h3 className="text-lg font-semibold mb-4">Связь с нами</h3>
               <div className="flex space-x-4">
                 <Button variant="ghost" size="icon" className="text-gray-400 hover:text-[#4dfbde]">
-                  <Icon name="Github" size={20} />
-                </Button>
-                <Button variant="ghost" size="icon" className="text-gray-400 hover:text-[#4dfbde]">
-                  <Icon name="Linkedin" size={20} />
-                </Button>
-                <Button variant="ghost" size="icon" className="text-gray-400 hover:text-[#4dfbde]">
-                  <Icon name="Twitter" size={20} />
+                  <Icon name="Send" size={20} />
                 </Button>
               </div>
             </div>
