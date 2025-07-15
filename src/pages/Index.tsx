@@ -416,7 +416,7 @@ const Index = () => {
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 XENUS. Все права защищены. Отечественная разработка.</p>
+            <p>© XENUS. Все права защищены. Отечественная разработка.</p>
           </div>
         </div>
       </footer>
